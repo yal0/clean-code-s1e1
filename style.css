@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -59,7 +59,9 @@ button {
   outline: none;
 }
 
-.add, .delete, .edit {
+.add, 
+.delete, 
+.edit {
   background: none;
   border: 0px;
   color: #888;
@@ -69,7 +71,9 @@ button {
   cursor: pointer;
 }
 
-.add:hover, .delete:hover, .edit:hover {
+.add:hover, 
+.delete:hover, 
+.edit:hover {
   color: #3a3a3a;
 }
 
