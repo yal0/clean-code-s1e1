@@ -59,7 +59,7 @@ button {
   outline: none;
 }
 
-button {
+.add, .delete, .edit {
   background: none;
   border: 0px;
   color: #888;
@@ -69,7 +69,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.add:hover, .delete:hover, .edit:hover {
   color: #3a3a3a;
 }
 
