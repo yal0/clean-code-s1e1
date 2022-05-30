@@ -1,5 +1,5 @@
 /* Basic Style */
-.body {
+.container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -78,7 +78,7 @@ button {
 }
 
 /* Heading */
-h3 {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
