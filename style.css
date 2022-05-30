@@ -107,7 +107,7 @@ button {
 }
 
 /* New Task */
-#new-task {
+.tasks-list__new {
   width: 318px;
   margin: 20px 0 0 0;
 }
@@ -146,18 +146,18 @@ button {
   width: 226px;
 }
 
-.delete img {
+.tasks-list__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.tasks-list__delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
